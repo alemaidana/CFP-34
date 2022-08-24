@@ -1,0 +1,20 @@
+Crear una función que tome dos listas y determine si existe lo que en poker se denomina “color” (cinco cartas del mismo palo). La primer lista son las 5 cartas repartidas en la mesa. La segunda lista representa 2 cartas en tu mano. Notación: número y palo de la carta (S = Espadas, H = Corazones, D = Diamantes, C = Picas) separados por un guion bajo.
+check_flush(["A_S", "J_H", "7_D", "8_D", "10_D"], ["J_D", "3_D"]) ➞ True // diamantes
+check_flush(["10_S", "7_S", "9_H", "4_S", "3_S"], ["K_S", "Q_S"]) ➞ True // espadas
+check_flush(["3_S", "10_H", "10_D", "10_C", "10_S"], ["3_S", "4_D"]) ➞ False
+
+
+
+
+Crear una función que retorne la suma de todos los presupuestos de las personas (budget).
+get_budgets([
+  { "name": "John", "age": 21, "budget": 23000 },
+  { "name": "Steve",  "age": 32, "budget": 40000 },
+  { "name": "Martin",  "age": 16, "budget": 2700 }
+]) ➞ 65700
+
+get_budgets([
+  { "name": "John",  "age": 21, "budget": 29000 },
+  { "name": "Steve",  "age": 32, "budget": 32000 },
+  { "name": "Martin",  "age": 16, "budget": 1600 }
+]) ➞ 62600
